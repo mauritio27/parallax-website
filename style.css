@@ -178,3 +178,71 @@ header {
             padding-top: 9em;
         }
     }
+    @media (max-width: 376px) {
+        .parallax img#grass {
+            padding-top: 29em;
+        }
+        #text {
+            position:absolute;
+            margin-left: 80px;
+            margin-right: auto;
+            font-size: 3em;
+            color: #1b283a;
+            text-shadow: 2px 4px 5px #f9f9f9;
+            align-items: center;
+            justify-content: center;
+            padding-top: 80px;
+        }
+        .parallax img#gate-left {
+            display: none;
+        }
+        
+        .parallax img#gate-right {
+            display:none;
+        }
+        .logo {
+            position: relative;
+            font-size: 2em;
+            color: #1b283a;
+            text-shadow: 2px 4px 5px #f9f9f9;
+            user-select: none;
+            margin-right: 80px;
+        }
+        .navigation a {
+            position:relative;
+            font-size: 1.1em;
+            color: #1b283a;
+            text-shadow: 2px 4px 5px #f9f9f9;
+            font-weight: 600;
+            text-decoration: none;
+            margin-left: 20px;
+            padding: 6px 15px;
+            transition: .5s;
+            
+        }
+
+        body {
+            max-width: auto;
+            overflow-x: hidden;
+        }
+        .sec {
+    
+            position: relative;
+            /* background: #020912; */
+            background: #020912;
+            padding: 30px;
+        }
+        
+        .sec h2 {
+            font-size: 2em;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+        
+        .sec p {
+           font-size: 1em;
+           color: #fff;
+           font-weight: 300;
+           text-align: justify;
+        }
+    }
